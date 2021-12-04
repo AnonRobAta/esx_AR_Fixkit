@@ -1,13 +1,18 @@
+fx_version 'cerulean'
+
 game 'gta5'
 
-fx_version 'cerulean'
+versio '1.0'
 
 author 'AnonRobAta'
 
 client_scripts {
-    'cl/*.lua'
+    'client/*.lua',
+    'config.lua'
 }
 
+shared_script 'config.lua'
+
 server_scripts {
-    'ss/*.lua'
+    'server/*.lua'
 }
